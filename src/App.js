@@ -3,8 +3,9 @@ import './App.css';
 
 import { Button, Form, FormGroup, Label, Input }
 from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { FacebookLoginButton } from 'react-social-login-buttons';
+import { FacebookLoginButton } from "react-social-login-buttons";
 
 class App extends Component {
   render() {
@@ -20,6 +21,7 @@ class App extends Component {
       <Label> Password </Label>
       <Input type="password" placeholder="Password"> </Input>
     </FormGroup>
+    <br/>
     <Button className="btn-lg btn-dark btn-block"> Log in</Button>
     <div className="text-center pt-3">
       Or continue with your social account
